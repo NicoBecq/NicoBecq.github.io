@@ -106,26 +106,41 @@
             </div>
             <div class="accordion" id="my_acordion">
                 <div class="card bg-dark">
-                    <div class="card-header" id="first_card_header">
-                        <h4 class="mb-0">
-                            <button type="button" class="btn btn-link btn_collapse">
-                                Collège Anne-Marie Javouhey - Senlis
+                    <div class="card-header" id="fourth_card_header">
+                        <h4 class="mb-0 text-center">
+                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapse_lamanu">
+                                La Manu - Noyon
                             </button>
                         </h4>
                     </div>
-                </div>
-                <div class="card bg-dark">
-                    <div class="card-header" id="second_card_header">
-                        <h4 class="mb-0">
-                            <button type="button" class="btn btn-link btn_collapse" data-target="#collapse_lycee" data-toggle="collapse">
-                                Lycée Marie-Curie Nogent-Sur-Oise
-                            </button>
-                        </h4>
-                    </div>
-                    <div id="collapse_lycee" class="collapse" data-parent="#my_acordion">
+                    <div id="collapse_lamanu" class="collapse" data-parent="#my_acordion">
                         <div class="card-body">
-                            <h5>Bac STi2D</h5>
-                            <p>Bac STi Développement Durable, option économie et environemment obtenu avec mention assez bien.</p>
+                            <h5>Formation Developpeur/Concepteur .NET.</h5>
+                            <ul class="modal_list">
+                                <li>
+                                    Langages
+                                    <ul class="modal_underlist">
+                                        <li>C#</li>
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Fameworks
+                                    <ul class="modal_underlist">
+                                        <li>Bootstrap</li>
+                                        <li>JQuery</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Projets
+                                    <ul class="modal_underlist">
+                                        <li>Projet d'application console: <a href="https://gitlab.ecole-e2n.fr/ClementMonard/projetquizz" target="_blank">quizz sur le c#</a></li>
+                                        <li>Projet reproduction de la page d'acceuil d'un <a href="https://gitlab.ecole-e2n.fr/ophelia/projetconforama" target="_blank">site internet existant</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -172,159 +187,30 @@
                     </div>
                 </div>
                 <div class="card bg-dark">
-                    <div class="card-header" id="fourth_card_header">
-                        <h4 class="mb-0 text-center">
-                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapse_lamanu">
-                                La Manu - Noyon
+                    <div class="card-header" id="second_card_header">
+                        <h4 class="mb-0">
+                            <button type="button" class="btn btn-link btn_collapse" data-target="#collapse_lycee" data-toggle="collapse">
+                                Lycée Marie-Curie Nogent-Sur-Oise
                             </button>
                         </h4>
                     </div>
-                    <div id="collapse_lamanu" class="collapse" data-parent="#my_acordion">
+                    <div id="collapse_lycee" class="collapse" data-parent="#my_acordion">
                         <div class="card-body">
-                            <h5>Formation Developpeur/Concepteur .NET.</h5>
-                            <ul class="modal_list">
-                                <li>
-                                    Languages
-                                    <ul class="modal_underlist">
-                                        <li>C#</li>
-                                        <li>Html</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Fameworks
-                                    <ul class="modal_underlist">
-                                        <li>Bootstrap</li>
-                                        <li>JQuery</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Projets
-                                    <ul class="modal_underlist">
-                                        <li>Projet d'application console: <a href="https://gitlab.ecole-e2n.fr/ClementMonard/projetquizz" target="_blank">quizz sur le c#</a></li>
-                                        <li>Projet reproduction d'un site internet existant: <a href="https://gitlab.ecole-e2n.fr/ophelia/projetconforama" target="_blank">Conforama</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <h5>Bac STi2D</h5>
+                            <p>Bac STi Développement Durable, option économie et environemment obtenu avec mention assez bien.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--<div class="row career_content">
-                <div class="col-md-3 text-center">
-                    <div>
-                        <div class="my_career bg-info border_light_blue rounded">
-                            <h4>
+                <div class="card bg-dark">
+                    <div class="card-header" id="first_card_header">
+                        <h4 class="mb-0">
+                            <button type="button" class="btn btn-link btn_collapse">
                                 Collège Anne-Marie Javouhey - Senlis
-                            </h4>
-                            <p>
-                                Brevet des collèges
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <div class="my_career bg-info border_light_blue rounded">
-                            <h4>
-                                Lycée Marie-Curie Nogent-Sur-Oise
-                            </h4>
-                            <p>
-                                Bac STi2D
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <div class="my_career bg-info border_light_blue rounded">
-                            <h4>
-                                SAE Institute - Paris
-                            </h4>
-                            <p>
-                                Certification de niveau III preneur de son
-                            </p>
-                            <button type="button" data-toggle="collapse" data-target="#collapse_SAE" class="btn btn-success button_for_modal">Compétences</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="my_career bg-info border_light_blue rounded">
-                        <h4>
-                            La Manu - Noyon
+                            </button>
                         </h4>
-                        <p>
-                            Formation Developpeur/Concepteur .NET.
-                        </p>
-                        <button type="button" data-toggle="collapse" data-target="#collapse_lamanu" class="btn btn-success button_for_modal">Compétences</button>
                     </div>
                 </div>
             </div>
-            <!-- collapse SAE -->
-            <!-- collapse SAE -->
-            <!--<div class="collapse" id="collapse_SAE">
-                <div class="card card-body bg-info">
-                    <ul class="modal_list">
-                        <li>
-                            Techniques d'enregistrement multipiste
-                        </li>
-                        <li>
-                            Consoles:
-                            <ul class="modal_underlist">
-                                <li>SSL</li>
-                                <li>Neve VR</li>
-                                <li>Icon D-Control</li>
-                                <li>Yamaha O2R</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Montage numérique sur disque dur
-                            <ul class="modal_underlist">
-                                <li>Pro Tools</li>
-                                <li>Logic Pro X</li>
-                                <li>Cubase</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Stéréophonie et techniques d'enregistrement stéréophonique
-                        </li>
-                        <li>
-                            Post-production (Mastering)
-                        </li>
-                    </ul>
-                </div>
-            </div>-->
-            <!-- collapse LaManu -->
-            <!--<div class="collapse" id="collapse_lamanu">
-                <div class="card card-body bg-info">
-                    <ul class="modal_list">
-                        <li>
-                            Languages
-                            <ul class="modal_underlist">
-                                <li>C#</li>
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Fameworks
-                            <ul class="modal_underlist">
-                                <li>Bootstrap</li>
-                                <li>JQuery</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul>
-                                <li>Projets</li>
-                                <li>Projet d'application console: <a href="https://gitlab.ecole-e2n.fr/ClementMonard/projetquizz">quizz sur le c#</a></li>
-                                <li>Projet reproduction d'un site internet existant: <a href="https://gitlab.ecole-e2n.fr/ophelia/projetconforama">Conforama</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>-->
         </div>
         <hr class="separator" />
     </section>
